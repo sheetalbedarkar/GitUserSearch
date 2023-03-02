@@ -1,0 +1,26 @@
+.fp-header {
+    height: 15%;
+    background-color: #ffff;
+
+    .navbar {
+        margin-right: 10%;
+    }
+
+    .nav-title {
+        color: #80839a;
+        font-family: 'Inter Black';
+        font-size: 18px/21px;
+        opacity: 0.7;
+
+        &:hover {
+            color: #2C709F;
+        }
+    }
+
+    .li-active {
+        border-bottom: 3px solid #2c709f;
+        color: #2c709f;
+        opacity: 1;
+    }
+
+}

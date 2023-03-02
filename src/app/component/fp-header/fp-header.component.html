@@ -1,0 +1,16 @@
+<div class="fp-header">
+    <nav class="navbar navbar-default d-flex flex-row justify-content-end">
+        <ul class="nav">
+            <li class="nav-item" [ngClass]="{'li-active':activeNavLnk===1}">
+                <div class="nav-link">
+                    <div class="nav-title" routerLink="/home" routerLinkActive="active">HOME</div>
+                </div>
+            </li>
+            <li class="nav-item" [ngClass]="{'li-active':activeNavLnk===2}">
+                <div class="nav-link">
+                    <div class="nav-title" routerLink="/history" routerLinkActive="active">HISTORY</div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</div>
